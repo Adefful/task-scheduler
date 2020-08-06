@@ -1,6 +1,7 @@
 #include <vector>
-using namespace std;
+
 class Group {
+private:
 public:
-    vector<Group> get_list() const;
+    std::vector<Group> get_list() const;
 };
