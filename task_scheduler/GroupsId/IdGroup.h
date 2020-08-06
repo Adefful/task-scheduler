@@ -1,10 +1,10 @@
 #include "group.h"
-#include "knownledg.h"
+#include "knownledge.h"
 class IdGroup {
 private:
     Group* id;
-    Knownledg knowledge;
+    vector<IdGroup> list_of_sub_group;
 public:
     IdGroup(const Group& grp);
-    void get_knownledg();
+    Knownledge get_knownledge();
 };

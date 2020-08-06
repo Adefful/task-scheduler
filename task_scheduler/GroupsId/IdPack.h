@@ -1,4 +1,4 @@
 #include "IdGroup.h"
-#include "knownledg.h"
+#include "knownledge.h"
 class IdPack : IdGroup{
 };
